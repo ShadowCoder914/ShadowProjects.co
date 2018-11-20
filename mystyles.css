@@ -1,0 +1,456 @@
+body {
+  background: black;
+  background-image: url(imgs/bg\ city.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
+  
+
+}
+/* Header */
+body a {text-decoration: none;}
+
+
+
+
+
+
+
+
+ 
+
+
+
+.topnav-container:hover{
+    
+}
+
+.topnav-container{ 
+box-sizing: content-box;
+border: 7px solid  black;
+border-radius: 10%;
+position: relative;
+margin-bottom: 20%;
+
+  
+
+
+
+
+}
+
+
+#dateString {
+
+    position: absolute;
+    color:greenyellow;
+    left: 4%;
+    top:20%;
+
+}
+
+
+
+
+ul {
+margin: 0;
+padding: 0;
+background-color:darkred;opacity:0.75 ;
+
+
+
+
+}
+ul.submenu{
+    position: absolute;
+    background:slategreys;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: -25px;
+    max-width: 480px;
+    width: 160px;
+    font-size: 1em;
+    padding-top: 10px;
+    display: none;
+
+
+}
+
+
+
+
+
+.topnav-container > ul > li{
+ 
+ 
+ display: inline-block;
+ position: relative;
+ 
+
+}
+ 
+
+    
+
+
+
+
+
+   
+   
+   
+
+
+ul li  {
+
+    list-style: none;
+    
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+    
+    
+    
+}
+
+ul li a{
+
+    
+    
+    color: white;
+    text-decoration: none;
+
+    text-align: center;
+    
+    
+
+    
+    
+
+}
+.completeWrapperBox div{
+
+ max-width: 550px;
+
+ min-width: 300px;
+ }
+
+ .completeWrapperBox {
+     height: auto;
+     width: 80%;
+     margin-left: 10%;
+     border: 1px solid black;
+     border-radius: 10%;
+     background-color: black;
+     opacity: 0.95;
+     
+     
+    }
+
+
+/* This is a psuedo selector(state)*/
+ul li a:link{
+    color: white;
+}
+ul li a:hover{
+
+
+    
+    color: red;
+    
+}
+
+
+
+.mainheader {
+
+    width: 100%;
+    
+}
+
+
+img{
+
+    
+   height:auto;
+}
+.myImg1{
+   
+   width:55%;
+   max-width: 400px;
+
+   height:auto;
+   border: 10px solid black; background: whitesmoke;
+   border-radius: 30%;
+   padding: 30px;
+   position: relative;
+   margin-left: 18%;
+   margin-bottom: 30%;
+   
+   
+   
+
+}
+.myImg1:hover{
+
+    
+}
+
+#home { border: 10px solid black;
+    background-image: url();
+    background:black;opacity: 0.9;
+    padding: 100px;
+    padding-bottom: 300px;
+    border-radius: 15%;
+    margin-right:30px;
+    margin-left: 25px;
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+    line-height: 1.5em;
+   
+    overflow: hidden;
+   
+    
+
+}
+
+#about{
+ 
+ 
+
+}
+.jsPic{
+  height: auto;
+  width: 20%;
+  padding: 3px;
+
+}
+
+
+#main{
+    border: 10px solid black;
+    border-radius: 20%;
+    background:black; 
+    margin-right: 100px;
+    position: absolute;
+    left:10px;
+    text-align: left ;
+    padding: 50px;
+    padding-right:300px;
+    margin-top: 10px;
+    width:40%;
+    height: 370px;
+    float: left;
+    opacity: 0.9;
+    
+   
+}
+
+.Title:hover{
+  color: rgb(255, 60, 11);
+
+}
+
+.Title {
+
+    background-image: url(imgs/Dante\ the\ Warrior\ coming\ \ soon.jpg);
+    color:maroon;
+    border: 30px solid black;
+    border-radius:20%;
+    font-family:  'Dancing Script', cursive;
+    display: inline;
+    background-position: top left;
+    margin-left: 30%;
+    font-size:  1.8em;
+    text-decoration-line: none;
+    opacity: 0.9;
+}
+i{
+    font-size: 50px;
+    position: relative; 
+    left: 100px;
+    bottom:50px;
+    margin-left: 30px;
+    
+}
+i:hover{
+   color: greenyellow;
+
+}
+p {
+ color:white;
+
+}
+.logo {
+ width: 100%;
+ box-sizing: border-box;
+ position: relative;
+ top:200px;
+ border: 10px solid black;
+ border-radius: 10%;
+
+}
+.Github{
+margin: 0;
+padding: 0;
+position: absolute;
+left: 40px;
+font-size: 1em;
+color: orangered;
+
+}
+.fB{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 160px;
+    font-size: 1em;
+    color: skyblue;
+
+}
+.linkedin {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 280px;
+    font-size: 1em;
+    color: darkcyan;
+    
+
+}
+
+
+h2{
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+h3 {
+
+    color:darkred;
+}
+h1{
+ color: darkred;
+ font-size: 1.5em;
+
+}
+
+
+p{ color: whitesmoke;
+
+}
+
+.fa-github {
+    padding-right: 20px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    color: black;
+    }
+.fa-facebook-f {
+    padding-right: 20px;
+    position: absolute;
+    left:150px;
+    top: 30px;
+    color: black;
+     }
+.fa-linkedin-in{
+    padding-right: 8px;
+    position: absolute;
+    left:260px;
+    top: 30px;
+    color: black;
+
+}    
+
+    
+
+
+.Icons {
+ padding-top: 80px;
+ border: 10px solid black; opacity: 0.9; 
+ border-radius: 5%;
+ background: whitesmoke;
+ padding-bottom:40px;
+ margin-bottom: 30px;
+ position: relative; bottom:100px;
+ left: 30px;
+ font-size: 1em;
+ font-family: cursive;
+ margin-right: 30px;
+ max-width: 350px;
+ min-width: 200px;
+
+ padding-left: 40px;
+ padding-right: 20px;
+ margin-left: 10%;
+ width: 30%;
+ height: auto;
+
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    #home{
+     text-align: center;
+     
+          }
+   
+   }
+   @media only screen and (max-width:400px) {
+    #home{
+     text-align: center;
+     
+          }
+   
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lastfooter{
+
+background:black; opacity: 0.9;
+position: relative;
+top:900px;
+width: 100%;
+height: 300px;
+margin-bottom: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
