@@ -1,3 +1,57 @@
+
+/* Mobile styles go first, without media queries. */
+
+@media only screen and (min-width: 310px) and (max-width:1400px) { section {
+   width:430px;
+   margin-bottom: 100px;
+   
+
+
+
+}
+}
+@media only screen and (min-width: 300px)
+{
+
+    {
+       
+       
+    }
+
+
+
+
+}
+
+
+
+
+    /* Larger mobile styles (wider than 320 pixels) */
+
+
+@media only screen and (min-width: 600px) { .myImg1 ,.Title{
+
+
+
+}
+    /* Tablet styles (wider than 600 pixels) */
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Large laptop styles (wider than 1024 pixels) */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* Desktop styles (wider than 1140 pixels) */
+}
+
+*{
+
+margin:0;
+padding:0;
+
+}
+
 body {
   background: black;
   background-image: url(imgs/bg\ city.jpg);
@@ -6,7 +60,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   line-height: 1;
-  
+  margin-right: 25%;
+  margin-left: 18%;
+  max-width: 600px;
+  width: 28em;
 
 }
 /* Header */
@@ -17,29 +74,26 @@ body a {text-decoration: none;}
 
 
 
+#container-box{
+display:flex;
+flex-direction: column;
+flex-flow: column wrap;
+align-items:stretch;
+
+
+width:100%;
+
+
+
+}
+
 
 
  
 
 
 
-.topnav-container:hover{
-    
-}
 
-.topnav-container{ 
-box-sizing: content-box;
-border: 7px solid  black;
-border-radius: 10%;
-position: relative;
-margin-bottom: 20%;
-
-  
-
-
-
-
-}
 
 
 #dateString {
@@ -55,41 +109,24 @@ margin-bottom: 20%;
 
 
 ul {
-margin: 0;
-padding: 0;
-background-color:darkred;opacity:0.75 ;
+    
+background-color:darkred;
+opacity:0.75 ;
+    
+    
+    
 
 
 
 
 }
-ul.submenu{
-    position: absolute;
-    background:slategreys;
-    padding-left: 0px;
-    text-align: left;
-    margin-left: -25px;
-    max-width: 480px;
-    width: 160px;
-    font-size: 1em;
-    padding-top: 10px;
-    display: none;
-
-
-}
 
 
 
 
 
-.topnav-container > ul > li{
- 
- 
- display: inline-block;
- position: relative;
- 
 
-}
+
  
 
     
@@ -107,12 +144,12 @@ ul li  {
 
     list-style: none;
     
-    padding-left:20px;
-    padding-right: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
     font-family: 'Dancing Script', cursive;
-    font-size: 2.2em;
+    font-size: 1.9em;
+    
+    margin-left:45px;
     
     
     
@@ -124,8 +161,10 @@ ul li a{
     
     color: white;
     text-decoration: none;
+    padding: px;
 
-    text-align: center;
+    
+    
     
     
 
@@ -135,21 +174,34 @@ ul li a{
 }
 .completeWrapperBox div{
 
- max-width: 550px;
+ max-width: 703px;
 
- min-width: 300px;
+ min-width: 400px;
+ margin-top:20px;
+ 
  }
 
  .completeWrapperBox {
-     height: auto;
+     height:auto;
      width: 80%;
      margin-left: 10%;
-     border: 1px solid black;
-     border-radius: 10%;
-     background-color: black;
-     opacity: 0.95;
      
      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    }
+    .navbar {
+display: inline;
+
     }
 
 
@@ -165,12 +217,24 @@ ul li a:hover{
     
 }
 
+a{text-decoration: none;}
 
+.mainHeader {
 
-.mainheader {
-
-    width: 100%;
     
+    text-align:left;
+    margin-left:auto;
+    position:relative;
+    right:100px;
+   
+    height:auto;
+    
+    
+}
+#mainMenu{
+
+
+
 }
 
 
@@ -181,7 +245,7 @@ img{
 }
 .myImg1{
    
-   width:55%;
+   width:85%;
    max-width: 400px;
 
    height:auto;
@@ -189,8 +253,11 @@ img{
    border-radius: 30%;
    padding: 30px;
    position: relative;
-   margin-left: 18%;
-   margin-bottom: 30%;
+   left: 25%;
+   flex-grow: 1;
+
+  
+
    
    
    
@@ -207,12 +274,14 @@ img{
     padding: 100px;
     padding-bottom: 300px;
     border-radius: 15%;
-    margin-right:30px;
-    margin-left: 25px;
+    margin-right:auto;
+    
     margin-top: 10%;
     position: relative;
     text-align: center;
     line-height: 1.5em;
+ 
+    
    
     overflow: hidden;
    
@@ -220,11 +289,7 @@ img{
 
 }
 
-#about{
- 
- 
 
-}
 .jsPic{
   height: auto;
   width: 20%;
@@ -236,18 +301,17 @@ img{
 #main{
     border: 10px solid black;
     border-radius: 20%;
-    background:black; 
-    margin-right: 100px;
-    position: absolute;
-    left:10px;
-    text-align: left ;
+    background:rgba(0,0,0,0.9); 
+    margin-right: 700px;
+    text-align: center ;
     padding: 50px;
-    padding-right:300px;
+    padding-right:100px;
     margin-top: 10px;
-    width:40%;
-    height: 370px;
-    float: left;
+    width:100%;
+    height: 900px;
+    
     opacity: 0.9;
+    
     
    
 }
@@ -260,16 +324,18 @@ img{
 .Title {
 
     background-image: url(imgs/Dante\ the\ Warrior\ coming\ \ soon.jpg);
-    color:maroon;
+    color:rgb(168, 0, 0);
     border: 30px solid black;
     border-radius:20%;
     font-family:  'Dancing Script', cursive;
     display: inline;
     background-position: top left;
-    margin-left: 30%;
-    font-size:  1.8em;
-    text-decoration-line: none;
+    font-size:  2.1em;
+    text-decoration: none;
     opacity: 0.9;
+    position:relative;
+    left:40%;
+
 }
 i{
     font-size: 50px;
@@ -281,6 +347,7 @@ i{
 }
 i:hover{
    color: greenyellow;
+   font-size: 4em;
 
 }
 p {
@@ -294,6 +361,8 @@ p {
  top:200px;
  border: 10px solid black;
  border-radius: 10%;
+ height: 600px;
+ margin-bottom: 145px;
 
 }
 .Github{
@@ -302,7 +371,8 @@ padding: 0;
 position: absolute;
 left: 40px;
 font-size: 1em;
-color: orangered;
+color: mediumslateblue;
+
 
 }
 .fB{
@@ -353,6 +423,9 @@ p{ color: whitesmoke;
     left: 10px;
     top: 30px;
     color: black;
+    text-shadow:  0px 4px 3px rgba(0,0,0,0.1),
+0px 8px 13px black,
+0px 18px 23px rgba(1,1,1,0.1);
     }
 .fa-facebook-f {
     padding-right: 20px;
@@ -360,6 +433,10 @@ p{ color: whitesmoke;
     left:150px;
     top: 30px;
     color: black;
+   text-shadow:  0px 4px 3px rgba(0,0,0,0.1),
+0px 8px 13px black,
+0px 18px 23px rgba(1,1,1,0.1);
+
      }
 .fa-linkedin-in{
     padding-right: 8px;
@@ -367,6 +444,9 @@ p{ color: whitesmoke;
     left:260px;
     top: 30px;
     color: black;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
+0px 8px 13px black,
+0px 18px 23px rgba(1,1,1,0.1);
 
 }    
 
@@ -375,23 +455,21 @@ p{ color: whitesmoke;
 
 .Icons {
  padding-top: 80px;
- border: 10px solid black; opacity: 0.9; 
+ border: 10px solid white; opacity: 0.9; 
  border-radius: 5%;
  background: whitesmoke;
  padding-bottom:40px;
- margin-bottom: 30px;
- position: relative; bottom:100px;
- left: 30px;
+ margin-bottom: 100px;
+ position: relative;
+ left: 3.7em;
+ 
  font-size: 1em;
  font-family: cursive;
- margin-right: 30px;
- max-width: 350px;
- min-width: 200px;
-
+ margin-right: 100px;
+ margin-left: 13px;
  padding-left: 40px;
  padding-right: 20px;
- margin-left: 10%;
- width: 30%;
+ width: 20%;
  height: auto;
 
 }
@@ -399,22 +477,8 @@ p{ color: whitesmoke;
 
 
 
-@media only screen and (max-width:600px) {
-    #home{
-     text-align: center;
-     
-          }
-   
-   }
-   @media only screen and (max-width:400px) {
-    #home{
-     text-align: center;
-     
-          }
-   
-   }
-   
 
+   
 
 
 
@@ -433,12 +497,28 @@ p{ color: whitesmoke;
 background:black; opacity: 0.9;
 position: relative;
 top:900px;
-width: 100%;
+width: 400px;
 height: 300px;
 margin-bottom: 20%;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 
 
