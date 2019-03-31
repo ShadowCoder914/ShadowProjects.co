@@ -1,4 +1,4 @@
-alert("Hello! Welcome To ShadowProjects !"); ;
+alert(" Welcome, Shadowprojectscreativestudios Portfolio !"); ;
 
 
 var myVar = setInterval(myTimer, 1000);
